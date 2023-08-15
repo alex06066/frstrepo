@@ -1,0 +1,105 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Tilt Prism', cursive; */
+}
+
+body {
+    margin: 0;
+    background-color: #d7bdda;
+}
+
+.login-button {
+    background-color: rgb(136, 68, 136);
+    color: white;
+    float: right;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    border-color: rgb(116, 57, 116);
+    font-size: large;
+}
+
+header {
+    background-color: rgb(105, 41, 105);
+    color: white;
+    padding: 3rem 2rem;
+    border: 5px;
+    border-radius: 10px;
+    border-style: inset;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.container {
+    width: 406px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(136, 68, 136);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    border-style: inset;
+    color: white;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
+
+section article h2,
+section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: rgb(97, 40, 97);
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: black;
+}
+
+.comentario {
+    border-radius: 5px;
+    border-color: #d7bdda;
+    background-color: #d7bdda;
+    margin: 7px;
+    width: 300px;
+    height: 30px;
+    border-style: inset;
+    border-width: 3px;
+}
+
+.enviar-button {
+    background-color: #d7bdda;
+    margin: 7px;
+    border-style: outset;
+    border-radius: 7px;
+    width: 50;
+    height: 40px;
+    float: right;
+}
